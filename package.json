@@ -1,0 +1,11 @@
+{
+  "name": "farrs-goldens-and-doodles",
+  "version": "0.1.0",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  }
+}
