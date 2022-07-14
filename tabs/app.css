@@ -1,0 +1,225 @@
+/*Style for the pages. Used Verdana, Geneva, Tahoma, sans-serif for all font family. Kept colors consistent with teal, #333, and white. Aside from that, just kind of played with sizing, spacing, and padding to find what I liked.*/
+
+h1 {
+    color: #6b8d97;
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6em;
+    color: #6b8d97;
+  }
+
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    color: #f948b0;
+  }
+  
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6b8d97;
+    padding: 5px;
+    border: 2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    background-color: #302f41;
+    color: white;
+  }
+  
+  a:link {
+    color: #6b8d97;
+    background-color: transparent;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #302f41;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .topnav a:hover {
+    background-color: #f948b0;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #6b8d97;
+    color: white;
+  }
+  
+  .contact {
+    overflow: hidden;
+    display: inline-block;
+    background-color: #302f41;
+    text-align: center;
+  }
+  
+  .contact a {
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    padding: 6px 10px;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .contact a:hover {
+    background-color: #f948b0;
+    color: black;
+    text-align: center;
+  }
+  
+  .contact a.active {
+    background-color: #6b8d97;
+    color: white;
+  }
+  
+  .container {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .card {
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float: left; */
+  }
+
+  .card img {
+    width:100%;
+    height: auto;
+  }
+  
+  .card:hover {
+    border: 1px solid #777;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 1px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #6b8d97;
+    color: white;
+  }
+
+@media (max-width: 760px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content: center;
+    }
+
+    form textarea {
+        width: 95%;
+    }
+
+    form input {
+        width: 95%;
+    }
+
+    input {
+        margin: 8px 0;
+    }
+}
+  
+@media (min-width:760px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 25% 25% 25%;
+        justify-content: space-evenly;
+    }
+
+    form input {
+        width: 50%;
+    }
+
+    form textarea {
+        width: 50%;
+    }
+
+    form text {
+        width: 50%;
+    }
+
+    input {
+        margin: 8px 0;
+        padding: 12px 20px;
+    }
+}
+
+form {
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.collage {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.collage img {
+    width: 33%;
+    height: auto;
+}
+
+.home {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
+.home img {
+    width:45%;
+    height: auto;
+}
